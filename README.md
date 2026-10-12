@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="https://share.streamlit.io/deploy?repository=bhandkunal02-eng%2FDecision_tree_Classifier_and_Regressor&amp;branch=main&amp;mainModule=app.py">
-    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Deploy on Streamlit Community Cloud">
+  <a href="https://decision-tree-lab.streamlit.app/">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open the live Streamlit app">
   </a>
   &nbsp;
   <a href="https://github.com/bhandkunal02-eng/Decision_tree_Classifier_and_Regressor">
@@ -45,24 +45,17 @@ streamlit run app.py
 
 The Titanic dataset is loaded through seaborn and needs internet access the first time. The regression dataset is included with scikit-learn.
 
-## Deploy on Streamlit Community Cloud
+## Live app
 
-1. Push this repository to GitHub.
-2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/) with GitHub.
-3. Select **Create app**, choose this repository and branch, and set the app file to `app.py`.
-4. After deployment, add the generated public app URL to this README as a direct **Live app** link.
+Open [Decision Tree Lab](https://decision-tree-lab.streamlit.app/). It is deployed from `main` and runs `app.py`.
 
 ## Repository setup
 
-Create a GitHub repository, then connect and push this project from the project folder:
+Clone the GitHub repository:
 
 ```bash
-git init
-git add README.md .gitignore requirements.txt app.py Dicision_tree_classification.ipynb Dicision_tree_regression.ipynb
-git commit -m "Add interactive decision tree demos"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/decision-tree-lab.git
-git push -u origin main
+git clone https://github.com/bhandkunal02-eng/Decision_tree_Classifier_and_Regressor.git
+cd Decision_tree_Classifier_and_Regressor
 ```
 
-The GitHub logo and repository badge link to this repository. The Streamlit badge opens the deployment form preconfigured for `app.py` in this repository.
+The GitHub logo and repository badge link to this repository. New commits to `main` are deployed automatically.
