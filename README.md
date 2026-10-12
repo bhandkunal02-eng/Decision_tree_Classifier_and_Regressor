@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/">
+  <a href="https://github.com/bhandkunal02-eng/Decision_tree_Classifier_and_Regressor">
     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo" width="72">
   </a>
 </p>
@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <a href="https://streamlit.io/">
-    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit">
+  <a href="https://share.streamlit.io/deploy?repository=bhandkunal02-eng%2FDecision_tree_Classifier_and_Regressor&amp;branch=main&amp;mainModule=app.py">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Deploy on Streamlit Community Cloud">
   </a>
   &nbsp;
-  <a href="https://github.com/">
+  <a href="https://github.com/bhandkunal02-eng/Decision_tree_Classifier_and_Regressor">
     <img src="https://img.shields.io/badge/GitHub-Repository-181717?logo=github" alt="GitHub repository">
   </a>
 </p>
@@ -50,7 +50,7 @@ The Titanic dataset is loaded through seaborn and needs internet access the firs
 1. Push this repository to GitHub.
 2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/) with GitHub.
 3. Select **Create app**, choose this repository and branch, and set the app file to `app.py`.
-4. After deployment, copy the public app URL into the Streamlit badge link above and into this README as a direct **Live app** link.
+4. After deployment, add the generated public app URL to this README as a direct **Live app** link.
 
 ## Repository setup
 
@@ -65,4 +65,4 @@ git remote add origin https://github.com/YOUR-USERNAME/decision-tree-lab.git
 git push -u origin main
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username. Update the GitHub logo and repository badge links at the top of this README to point to the new repository after creating it.
+The GitHub logo and repository badge link to this repository. The Streamlit badge opens the deployment form preconfigured for `app.py` in this repository.
