@@ -51,6 +51,10 @@ flowchart TD
 - **Regression:** A decision tree learns from ten diabetes dataset features. Adjust depth and a feature profile to see how the prediction and test metrics respond.
 - **In both tabs:** Change model settings, inspect a tree visualization, and compare predictions against held-out test data.
 
+## Recent fix
+
+The Titanic classification notebook was updated to resolve the RandomForest out-of-bounds/OOB score error. The fix keeps the model in a valid OOB-enabled configuration and applies the same preprocessing pipeline used by the app so categorical values are encoded correctly before training.
+
 ## Launch locally
 
 ```bash
